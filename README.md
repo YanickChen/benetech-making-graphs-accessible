@@ -26,8 +26,8 @@ y_str = Y_START + ";".join(list(map(str, ys))) + Y_END
 e.g: <x_start>0;2;4;6<x_end><y_start>2.7;2.2;3.6;5.2;<y_end>
 
 **More details:**
-- lr 1e-5
+- lr 1e-5.
 - cosine scheduler with warmup with 0.1 num_warmup_steps_ratio and 0.5 cycle.
 - 10 Epochs.
-- MAX_PATCHES = 2048
-- no Augs (maybe I should try)
+- MAX_PATCHES = 2048.
+- no Augs (maybe I should try).
